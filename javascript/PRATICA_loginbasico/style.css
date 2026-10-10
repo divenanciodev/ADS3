@@ -1,0 +1,91 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+  background: #eef1f5;
+}
+
+.card {
+  width: 100%;
+  max-width: 340px;
+  margin: 16px;
+  padding: 32px 28px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+h1 { 
+  margin-bottom: 6px; 
+  font-size: 24px; 
+  text-align: left; 
+  color: #222; 
+}
+
+.subtitulo {
+  margin-top: 0px;
+  margin-bottom: 24px; 
+  font-size: 15px; 
+  text-align: left; 
+  color: #222;
+}
+
+label { 
+  display: block; 
+  margin: 14px 0 6px; 
+  font-size: 14px; 
+  color: #444; 
+  font-weight: bold; 
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #c8ccd2;
+  border-radius: 8px;
+}
+
+input:focus { 
+  outline: 2px solid #2563eb; 
+  border-color: transparent; 
+}
+
+button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 11px;
+  font-size: 16px;
+  color: #fff;
+  background: #2563eb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover { 
+  background: #1d4ed8; 
+}
+
+#mensagem { 
+  margin-top: 16px; 
+  min-height: 22px; 
+  text-align: center; 
+  font-size: 15px; 
+}
+
+#mensagem.ok { 
+  color: #15803d; 
+}
+
+#mensagem.erro { 
+  color: #b91c1c; 
+}

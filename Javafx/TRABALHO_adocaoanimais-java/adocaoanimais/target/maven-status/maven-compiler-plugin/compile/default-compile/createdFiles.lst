@@ -1,0 +1,8 @@
+br\edu\ifma\adocaoanimais\view\componentes\CelulaAnimal.class
+br\edu\ifma\adocaoanimais\App.class
+br\edu\ifma\adocaoanimais\view\Home.class
+br\edu\ifma\adocaoanimais\view\DetalhesAnimal.class
+module-info.class
+br\edu\ifma\adocaoanimais\view\TelaCadastro.class
+br\edu\ifma\adocaoanimais\model\Animal.class
+br\edu\ifma\adocaoanimais\view\TelaPrincipal.class
